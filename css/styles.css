@@ -1,0 +1,239 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Title Section */
+#title {
+  background-color: #91091E;
+  position: relative;
+  z-index: -1;
+  text-align: center;
+}
+.container-fluid {
+  padding: 5% 15%;
+}
+.container-fluid .big-heading {
+  text-align: left;
+}
+
+.container-fluid .col-lg-6 {
+  text-align: left;
+}
+
+.luxuryimg {
+  width: 15rem;
+  height: 25rem;
+  transform: rotate(25deg);
+  border-radius: 1.3rem;
+  margin-top: 3rem;
+  margin-left: 9rem;
+  position: absolute;
+}
+
+.navbar-brand {
+font-size: 2.2rem;
+font-family: 'Sansita Swashed', cursive;
+}
+.navbar {
+  padding-bottom: 4rem;
+}
+.nav-link {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.download-button {
+  margin: 10px 5px;
+}
+
+
+
+
+/* Features Section */
+
+#features {
+  background-color: white;
+  margin: 0;
+  padding: 16rem 9rem;
+  text-align: center;
+  position: relative;
+}
+
+.ft-icon {
+  color: #91091E;
+  margin-bottom: 1.5rem;
+
+}
+
+.icon-ftr {
+  padding: 2rem 1rem 0;
+  color: #91091E;
+}
+
+
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #91091E;
+  text-align: center;
+}
+
+.testimonial-text,.testimonial-text h2 {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 3rem 9rem;
+}
+
+/* <!-- Press --> */
+.nikenike {
+  border-radius: 2rem;
+}
+.puma {
+  border-radius: 1rem;
+  background-color: #91091E;
+}
+
+#press {
+background-color: #91091E;
+padding: 4rem 3rem;
+text-align: center;
+bottom: 400px;
+}
+
+.press-img {
+width: 15%;
+}
+
+
+/* <!-- Pricing -->   */
+
+.carl-p {
+color: white;
+font-size: 150%;
+
+}
+
+.p-carl, .ptsale:hover  {
+background-color: #91091E;
+}
+
+.p-carly {
+width: 50%;
+margin:0 auto 3rem;
+}
+
+
+.pbtn {
+margin-bottom: 3rem;
+}
+.p1  {
+color: #8f8f8f;
+}
+
+.p-ftr {
+font-size: 9px;
+}
+.pjayimg {
+border-radius: 100%;
+height: 300px;
+width: 300px;
+}
+
+.psale {
+padding: 2rem 4rem;
+text-align: center;
+}
+
+
+
+
+/* <!-- Call to Action --> */
+
+
+#cta {
+text-align: center;
+background-color: #91091E;
+
+}
+
+#cta .big-heading {
+  padding: 6rem 15rem 3rem;
+}
+
+.cta-h3 {
+color: white;
+padding: 3rem 6rem 1rem;
+}
+
+
+/* .cta-left:hover {
+
+} */
+
+
+/* .cta-right:hover {
+  color: white;
+  margin-bottom: 3rem;
+} */
+
+
+/* Footer Section */
+#footer {
+  text-align: center;
+}
+
+.ladyimg {
+  border-radius: 100%;
+}
+
+.luxury-ward {
+  border-radius: 1.3rem;
+  width: 60%;
+  height: 400px;
+}
+
+
+
+
+
+
+
+@media (max-width: 1028px) {
+  .psale {
+    position: relative;
+    padding: 0rem;
+    margin: 0rem;
+
+  }
+  #features {
+    height: 600px;
+  }
+  .luxuryimg {
+    position: relative;
+    transform: rotate(0);
+    margin: auto 0;
+    padding-top: 16px;
+  }
+
+  #features {
+    position: relative;
+    padding-top: 12px;
+    text-align: center;
+  }
+
+
+  #testimonials {
+    position: relative;
+    padding-top: 12px;
+  }
+
+}
